@@ -2,6 +2,8 @@
 
 Verificar as configurações do git
 ```git config -l``` ou ```git config -list``` 
+
+
 Setar configurações
 ```git config --global user.name "Seu Nome"```
 ```git config --global user.email <seu@email.com>```
@@ -10,13 +12,17 @@ Setar configurações
 Inicializar  um novo repositóio
 ```git init```
 
+
 Verificar a condição do repositório, se tem alteração, se precisa ser adicionado ao projeto (ciclo > git status > git add) 
 ```git status```
 
+
 Adicionar um ou mais arquivos (ao Index do projeto)
 ```git add <nome-do-arquivo-ou-diretorio>``` 
+
 Adicionar todos os arquivos que possuem alterações
 ```git add .``` ou ```git add -a``` 
+
 
 Gravar alterações no repositório (e enviando para o HEAD, mas ainda não para o repositório remoto)
 ```git commit -m "info sobre o commit"```
